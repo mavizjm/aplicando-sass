@@ -1,0 +1,47 @@
+//Registro
+
+.form-register{
+    width: 400px;
+    background: $color_dos;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: $fuente_uno;
+    color: black;
+
+
+    & h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    
+    
+    }
+
+    & p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    & a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    & .botons{
+        width: 100%;
+        background: rgb(57, 57, 161);
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    & .botons:hover{
+        color: rgb(118, 118, 132);
+    
+    
+    }
+
+}
